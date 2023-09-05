@@ -1,0 +1,17 @@
+.cardx{
+    background: rgb(236, 236, 236);
+}
+
+.burger{
+    display: none;
+}
+
+@media only screen and (max-width: 768px){
+    .burger{
+        display: block;
+    }
+
+    .navbasic{
+        display: none;
+    }
+}

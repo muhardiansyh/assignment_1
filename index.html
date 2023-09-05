@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Import Bootstrap -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">  
+    <link rel="stylesheet" href="assets/css/home.css">
+    <title>Assignment Bootstrap | Home Page</title>
+</head>
+<body>
+
+    <nav class="navbar bg-light">
+        <div class="container">
+            <!-- button burger -->
+            <button class="navbar-toggler burger" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobilemenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- nav menu default -->
+            <ul class="nav p-2 navbasic">
+                <li class="nav-item">
+                    <a href="#" class="nav-link navbar-brand">Ardiyan</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-black">Profil</a>
+                </li>
+                    <a href="pages/challengePortofolioLanjutan.html" class="nav-link text-black">Portofolio</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle text-black" role="button" data-bs-toggle="dropdown">Tutorial</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" class="dropdown-item">HTML</a></li>
+                        <li><a href="#" class="dropdown-item">CSS</a></li>
+                        <li><a href="#" class="dropdown-item">Javascrpt</a></li>
+                        <li><a href="#" class="dropdown-item">PHP</a></li>
+                        <li><a href="#" class="dropdown-item">Bootstrap</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <form action="" class="d-flex">
+                <button class="btn">Login</button>
+                <button class="btn btn-primary">Daftar</button>
+            </form>
+
+            <!-- nav menu mobile -->
+            <div class="offcanvas offcanvas-start p-3" tabindex="-1" id="mobilemenu">
+                <div class="offcanvas-header">
+                    <h3 class="offcanvas-title"><a href="#" class="nav-link">Ardiyan</a></h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-black">Profil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="pages/challenge-lanjutan.html" class="nav-link text-black">Portofolio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle text-black" role="button" data-bs-toggle="dropdown">Tutorial</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item">HTML</a></li>
+                                <li><a href="#" class="dropdown-item">CSS</a></li>
+                                <li><a href="#" class="dropdown-item">Javascrpt</a></li>
+                                <li><a href="#" class="dropdown-item">PHP</a></li>
+                                <li><a href="#" class="dropdown-item">Bootstrap</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <br>
+
+    <div class="container">
+        <div class="card cardx border border-0 p-5">
+            <div class="card-body">
+                <h3 class="card-title text-center">Selamat Datang di Ardiyan.com</h3>
+                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ipsum omnis id! Cumque dignissimos facere quidem enim fugiat nulla et! Minima consequatur dicta alias ratione eligendi facilis aliquam non saepe.</p>
+                <br>
+                <div class="text-center">
+                    <button class="btn btn-primary">Mulai Belajar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-3 col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="assets/img/html.png" alt="" class="img-fluid">
+                        <h3 class="card-title">Tutorial HTML</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure corporis dolorum quis fugiat odio iusto. Iure ab vero libero nobis rem harum repellat illo! Iure molestias assumenda obcaecati ipsa quia?</p>
+                        <button class="btn btn-primary">Lihat</button>
+                    </div>
+                </div>
+                <br>
+            </div>
+
+            <div class="col-12 col-md-3 col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="assets/img/css.png" alt="" class="img-fluid">
+                        <h3 class="card-title">Tutorial CSS</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure corporis dolorum quis fugiat odio iusto. Iure ab vero libero nobis rem harum repellat illo! Iure molestias assumenda obcaecati ipsa quia?</p>
+                        <button class="btn btn-primary">Lihat</button>
+                    </div>
+                </div>
+                <br>
+            </div>
+
+            <div class="col-12 col-md-3 col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="assets/img/js.png" alt="" class="img-fluid">
+                        <h3 class="card-title">Tutorial Javascript</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure corporis dolorum quis fugiat odio iusto. Iure ab vero libero nobis rem harum repellat illo! Iure molestias assumenda obcaecati ipsa quia?</p>
+                        <button class="btn btn-primary">Lihat</button>
+                    </div>
+                </div>
+                <br>
+            </div>
+
+            <div class="col-12 col-md-3 col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="assets/img/php.png" alt="" class="img-fluid">
+                        <h3 class="card-title">Tutorial PHP</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure corporis dolorum quis fugiat odio iusto. Iure ab vero libero nobis rem harum repellat illo! Iure molestias assumenda obcaecati ipsa quia?</p>
+                        <button class="btn btn-primary">Lihat</button>
+                    </div>
+                </div>
+                <br>
+            </div>
+        </div>
+    </div>
+    <br>
+
+
+<!-- Import Javascrpt -->
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

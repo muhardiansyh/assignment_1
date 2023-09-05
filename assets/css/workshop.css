@@ -1,0 +1,20 @@
+body{
+    background: rgb(242, 242, 242);
+}
+
+.nav{
+    background: orange;
+}
+
+.card img{
+    width: 100%;
+}
+
+.list-social-media div{
+    display: inline-block;
+    padding-right: 10px;
+}
+
+a{
+    text-decoration: none;
+}
